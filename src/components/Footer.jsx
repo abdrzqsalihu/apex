@@ -24,7 +24,7 @@ function Footer() {
                       key={Link.id}
                       className={`font-primary font-medium leading-6 text-[#1b1c20] hover:text-primary hover:font-semibold`}
                     >
-                      <a href={Link.id}>{Link.title}</a>
+                      <a href="#!">{Link.title}</a>
                     </li>
                   ))}
               </ul>
