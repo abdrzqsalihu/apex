@@ -4,17 +4,17 @@ function Hero() {
   return (
     <section className="mt-20 justify-center mx-auto lg:w-[1296px] flex md:flex-row flex-col">
         {/*  Column 1 */}
-      <div className="flex-1 flex-col p-4 items-center">
+      <div className="flex-1 flex-col p-5 items-center">
           {/* <!-- Content for column 1 --> */}
-          <div className="self-center mt-[10px] md:mt-[90px] md:w-[509px]">
+          <div className="self-center mt-[10px] md:mt-[90px] md:max-w-[509px]">
               <div className="inline-flex flex-col items-start gap-[29px]">
                   <h1 className="font-semibold text-[34px] md:text-[50px] font-secondary leading-[49px] md:leading-[60px]">
                     Start chatting with customers, anytime, anywhere with Apex
                   </h1>
-                  <p className="font-primary font-normal text-[18px] leading-[32px] text-[#383A47] opacity-80 w-[100%] md:w-[440px]">Great software that allows you to chat from any place at any time without any interruption.</p>
-                  <button className="bg-primary flex-shrink-0 w-[13.75rem] h-14 rounded-lg">
+                  <p className="font-primary font-normal text-[18px] leading-[32px] text-[#383A47] opacity-80 w-[100%] md:max-w-[440px]">Great software that allows you to chat from any place at any time without any interruption.</p>
+                  <button className="bg-primary flex-shrink-0 w-[190px] md:w-[13.75rem] h-[56px] md:h-14 rounded-lg">
                     <div className="inline-flex justify-center items-center pl-0">
-                        <div className="Sans'] text-white text-right font-['DM font-medium leading-6 mr-2">Start Chatting Now</div>
+                        <div className="font-primary text-white text-right font-medium leading-6 mr-2 text-[16px]">Start Chatting Now</div>
                         <svg className="mt-1" width={18} height={18} viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <mask id="mask0_2_1243" style={{maskType: 'luminance'}} maskUnits="userSpaceOnUse" x={0} y={0} width={18} height={18}>
                             <rect width={18} height={18} fill="white" />
@@ -29,13 +29,13 @@ function Hero() {
 
               <div className="flex flex-wrap items-center mt-[30px] md:mt-[70px]">
                 {/* Customers  */}
-                  <div className="md:w-1/2 lg:w-1/3 p-4 w-[160px]">
+                  <div className="md:w-1/2 lg:w-1/3 p-4  w-[150px]">
                       <img src={customers} className="w-auto" alt="" />
                   </div>
 
-                  <div className="flex flex-col flex-shrink-0 justify-center items-start pr-0">
-                      <div className="font-primary text-[#1b1c20] text-[30px] font-bold leading-[42px]">2,291</div>
-                      <div className="font-primary opacity-[0.6] text-[#383a47] text-[16px] leading-[24px]">Happy Customers</div>
+                  <div className="flex flex-col p-4 justify-center items-start pr-0">
+                      <div className="font-primary text-[#1b1c20] text-[28px] md:text-[30px] font-bold leading-[42px] tracking-[1px]">2,291</div>
+                      <div className="font-primary opacity-[0.6] text-[#383a47] text-[14px] md:text-[16px] leading-[24px]">Happy Customers</div>
                   </div>
                 {/* Lines */}
                       <svg className="hidden md:block mr-[26px] ml-[26px]" width={2} height={41} viewBox="0 0 2 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ function Hero() {
                       </div>
                 {/* Rating */}
                   <div className="flex flex-col justify-center items-start ml-6 lg:ml-0 md:w-auto">
-                        <div className="font-primary text-[#1b1c20] text-[30px] font-bold leading-[42px] tracking-[1px]">4.8/5</div>
+                        <div className="font-primary text-[#1b1c20] text-[28px] md:text-[30px] font-bold leading-[42px] tracking-[1px]">4.8/5</div>
                         <div className="flex justify-center items-center gap-2.5 pr-0 h-6">
                           <svg width={78} height={13} viewBox="0 0 78 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_2_1263)">
@@ -64,7 +64,7 @@ function Hero() {
                               </clipPath>
                             </defs>
                           </svg>
-                          <div className="font-primary opacity-[0.6] text-[#383a47] leading-6">Rating</div>
+                          <div className="font-primary opacity-[0.6] text-[#383a47] text-[14px] md:text-[16px] leading-6">Rating</div>
                         </div>
                   </div>
               </div>
