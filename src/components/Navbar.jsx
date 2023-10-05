@@ -61,7 +61,7 @@ function Navbar() {
               )}
             </button>
             {isMenuOpen && (
-              <div className="fixed top-[4.3rem] left-0 w-full bg-white shadow-lg">
+              <div className="fixed top-[4.3rem] left-0 w-full bg-white shadow-lg px-2">
                 <ul className="space-y-2 p-2">
                   {navLinks.map((nav) => (
                     <li 
