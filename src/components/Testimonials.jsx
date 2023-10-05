@@ -12,10 +12,10 @@ function Testimonials() {
   return (
     <section className="py-[80px] h-auto bg-primary relative">
         <WaveSectionStyle />
-        <div className="justify-center mx-auto lg:w-[1296px] h-auto">
+        <div className="justify-center mx-auto lg:w-[1296px] h-auto px-4">
             <h1 className="font-primary text-[32px] md:text-[48px] leading-[40px] md:leading-[58px] text-center text-white font-bold max-w-[446px] mx-auto">Our blessed client said about us 😍</h1>
 
-            <div className="flex flex-col md:flex-row gap-10 mt-20 px-10">
+            <div className="flex flex-col md:flex-row gap-10 mt-20">
                 <div className="flex-1 flex flex-col w-[100%] md:w-[600px] mx-auto">
                       <div className="relative bg-white rounded-lg">
                         {/* Content */}
