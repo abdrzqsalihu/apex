@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <header className='fixed top-0 left-0 bg-white w-full z-50 px-5'>
+    <header className='fixed top-0 left-0 bg-white w-full z-50 px-5 backdrop-blur-lg bg-opacity-70 shadow-sm'>
       <nav className="container mx-auto flex items-center justify-between py-4">
         <div className="container mx-auto lg:w-[1296px] lg:h-[50px] flex justify-between items-center">
           {/* Logo on the left */}
